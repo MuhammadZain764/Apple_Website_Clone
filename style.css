@@ -1,0 +1,280 @@
+:root{
+    --greyDark:#333333;
+    --greyLight:#d6d6d6;
+    --greyLight2:#a1a1a6;
+    --white:#f5f5f7;
+    --text:#1d1d1f;
+    --blue:#0071e3;
+    --a:#2997ff;
+
+
+
+}
+
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+}
+header {
+    width: 100%;
+    height: 45px;
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+ul{
+    height: 100%;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: lightgray;
+}
+li{
+    cursor: pointer;
+    list-style: none;
+
+
+ }
+
+ .top_title{
+   margin-top: 52px;
+     color: var(--black);
+    text-align: center;
+    z-index: 3;
+ }
+  /* Iphone 14 */
+ .top_title h1{
+    font-size: 52px;
+    font-weight: 500;
+    letter-spacing: -1px;
+ }
+
+ .top_title h3{
+    margin-top: 3px;
+    font-size: 26px;
+    font-weight: 400;
+ }
+
+ .top_title_links a{
+    color: var(--a);
+    font-weight: 400;
+    font-size: 21px;
+    
+ }
+ .background{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    }
+ .top_title2{
+    margin-top: 52px;
+     color: var(--white);
+    text-align: center;
+    z-index: 3;
+    
+ }
+ /* Apple watch */
+ .top_title2 h1{
+    font-size: 52px;
+    font-weight: 500;
+    letter-spacing: -1px;
+ }
+
+ .top_title2 h3{
+    margin-top: 3px;
+    font-size: 26px;
+    font-weight: 400;
+ }
+
+ .top_title2_links a{
+    color: var(--a);
+    font-weight: 400;
+    font-size: 21px;
+    
+ }
+
+.background2{
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-size: cover;
+background-position: center;
+z-index: -1;
+}
+
+ .section1 {
+    height:600px;
+    width: 100%;position: relative;
+    overflow: hidden;
+ }
+
+ .section2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+
+
+
+.row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.section2_item{
+    height: 590px;
+     flex:0.497 ;
+     position: relative;
+     overflow: hidden;
+     display: flex;
+     width: 100%;
+     justify-content: center;
+     background: #fff;
+z-index: -1;
+
+     
+}
+
+    
+
+.section2_item2{
+    height: 590px;
+     flex:0.497 ;
+     position: relative;
+     overflow: hidden;
+     display: flex;
+     width: 100%;
+     justify-content: center;
+     background: #fff;
+z-index: -1;
+
+    
+    }
+
+
+     .top_title3 h1{
+        font-size: 52px;
+        font-weight: 500;
+        letter-spacing: -1px;
+        
+     }
+    
+     .top_title3 h3{
+        margin-top: 3px;
+        font-size: 26px;
+        font-weight: 400;
+     }
+    
+     .top_title3_links a{
+        color: var(--a);
+        font-weight: 400;
+        font-size: 21px;
+        
+     }
+     .top_title3{
+        margin-top: 52px;
+         color: var(--black);
+        text-align: center;
+        z-index: 3;
+     }
+
+     .footer{
+        width: 100%;
+        
+        background: var(--white);
+        display: flex;
+        justify-content: center;
+        
+        
+     }
+     .footer_wrapper{
+        width: 800px;
+        
+     }
+     ol{
+        font-size: 12px;
+        list-style: none;
+        color: #86868b;
+        border-bottom:1px solid var(--greyLight);
+         
+        
+     }
+    
+     li{
+        margin: 3px 0;
+        letter-spacing: 0.1px;
+
+     }
+     .footer_links_columns_title{
+        font-weight: 400;
+        font-size: 16px;
+        margin-top: 18px;
+        margin-bottom: 15px;
+        letter-spacing: 0.5px;
+        
+        
+     }
+     .footer_links_columns{
+        display: inline-block;
+        
+     }
+     .links{
+        width: 100%;
+        display:flex;
+        margin-bottom: 20px;
+        font-size: 12px;
+        color: #515154;
+        
+
+     }
+     #col1{
+        margin-right: 20px;
+        margin-top: 40px;
+     }
+     .footer_more{
+        font-size: 13px;
+        color: #86868b;
+        padding-bottom: 10px;
+        border-bottom:1px solid var(--greyLight);
+     }
+     .link2{
+        color: #06c;
+     }
+     .copyright{
+        width: 100%;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 13px;
+        color: #86868b;
+        margin-top: 4px;
+        position: relative;
+
+     }
+     
+     
